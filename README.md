@@ -2,7 +2,7 @@
 
 ### Set Up
 Docker for Macをインストールする
-![Docker for Mac website](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
+[Docker for Mac website](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
 
 ```
 ## repositoryをclone
