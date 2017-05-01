@@ -18,6 +18,8 @@ services:
   redis:
     image: redis:3
     container_name: 'redis'
+    ports:
+      - '6379:6379'
   database:
     image: mysql:5.7.17
     container_name: 'mysql'
