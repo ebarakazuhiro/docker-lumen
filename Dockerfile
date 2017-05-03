@@ -36,6 +36,7 @@ RUN mv -n /tmp/vendor ./ \
 RUN chown www-data:www-data storage/logs \
     && chown -R www-data:www-data storage/framework \
     && cp .env.example .env \
+    && php artisan key:generate \
     && mkdir -p  /usr/share/nginx \
     && ln -s /var/www/laravel/public /usr/share/nginx/html
 

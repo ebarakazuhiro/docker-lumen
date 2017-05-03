@@ -31,3 +31,5 @@ services:
       DB_DATABASE: lumen
       DB_USERNAME: lumen
       DB_PASSWORD: secret
+    volumes:
+      - ./:/var/lib/mysql
