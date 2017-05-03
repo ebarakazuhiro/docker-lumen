@@ -22,6 +22,12 @@ docker-compose up
 
 ```
 
+### Check
+
+
+http://localhost/
+
+
 ### Dockerコマンド
 
 
