@@ -27,9 +27,9 @@ services:
       - '3306:3306'
     environment:
       DB_CONNECTION: mysql
-      DB_HOST: db
-      DB_DATABASE: lumen
-      DB_USERNAME: lumen
+      DB_HOST: 127.0.0.1
+      DB_DATABASE: homestead
+      DB_USERNAME: homestead
       DB_PASSWORD: secret
     volumes:
       - ./:/var/lib/mysql
